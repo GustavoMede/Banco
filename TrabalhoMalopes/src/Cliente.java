@@ -1,5 +1,3 @@
-import java.util.ArrayList;
-
 public class Cliente {
 
     private String nome;
@@ -37,5 +35,14 @@ public class Cliente {
 
     public void setEndereco(String endereco) {
         this.endereco = endereco;
+    }
+
+    @Override
+    public String toString() {
+        return "Cliente{" +
+                "nome='" + nome + '\'' +
+                ", cpf='" + cpf + '\'' +
+                ", endereco='" + endereco + '\'' +
+                '}';
     }
 }
