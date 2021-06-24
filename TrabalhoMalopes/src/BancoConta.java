@@ -8,7 +8,7 @@ public class BancoConta {
         return BancoConta.contaCorrenteArrayList;
     }
 
-    public void setContaCorrenteArrayList(ContaCorrente contaCorrente) {
+    public static void adicionaContaCorrente(ContaCorrente contaCorrente) {
         BancoConta.contaCorrenteArrayList.add(contaCorrente);
     }
 }

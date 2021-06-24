@@ -8,7 +8,7 @@ public class BancoCliente {
         return BancoCliente.clienteArrayList;
     }
 
-    public static void adiciona(Cliente cliente) {
+    public static void adicionaCliente(Cliente cliente) {
         clienteArrayList.add(cliente);
     }
 }

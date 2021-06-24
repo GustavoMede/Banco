@@ -126,7 +126,7 @@ public class ClienteDados {
         cliente.setNome(nome);
         cliente.setCpf(cpf);
         cliente.setEndereco(endereco);
-        BancoCliente.clienteArrayList.add(cliente);
+        BancoCliente.adicionaCliente(cliente);
     }
 
     public static void listaClientes(){
@@ -202,7 +202,7 @@ public class ClienteDados {
         if(teste && contaCorrente.getNumero() <= 0){
             throw new RuntimeException("Numero de conta inválido. Por favor, insira um número maior e diferente de 0");
         }else{
-            BancoConta.contaCorrenteArrayList.add(contaCorrente);
+            BancoConta.adicionaContaCorrente(contaCorrente);
         }
     }
 
