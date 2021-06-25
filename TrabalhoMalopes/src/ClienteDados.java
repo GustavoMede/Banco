@@ -2,6 +2,14 @@ import java.util.Scanner;
 
 public class ClienteDados {
 
+    /*
+    Nomes:
+    Gustavo Medeiros Coelho, RA: 202012359
+    Matheus Gigliotti, RA: 202014031
+    Wendel Santos Lobato Filho, RA: 202014048
+    Marcone Rodrigues, RA: 202010477
+     */
+
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
